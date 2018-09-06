@@ -1,0 +1,24 @@
+
+Welcome to MiniTalk!
+
+This project is my personal attempt to understand Smalltalk.
+I started this a long time ago, but only recently found the
+time to port the software to UNIX and to get it working (well,
+sort of: too much is missing yet, especially all graphics and
+windowing classes).
+
+Feel free to experiment with what is already there, but expect
+the whole thing to change considerably in the future.
+
+If you have any further questions (or are eager to contribute to this
+project :-), don't hesitate to contact the MiniTalk team by email to
+
+        Hellwig.Geisse@mni.fh-giessen.de
+
+or visit the project's homepage at
+
+        http://homepages.fh-giessen.de/~hg53/minitalk
+
+Enjoy!
+Hellwig Geisse
+

@@ -1,0 +1,26 @@
+
+Splash File Generation
+----------------------
+
+Here is how to generate a splash file
+for the MiniTalk graphics display.
+
+1. Create a BMP file, 640 pixels wide,
+   480 pixels high, 24 bits per pixel,
+   with any graphics tool, e.g. Gimp.
+   Store the file as an uncompressed
+   BMP image file.
+
+2. Convert the BMP file with the 'sic'
+   tool. The resulting file is a bilevel
+   run-length encoded image. You can
+   specify the foreground/background
+   gray-level threshold for the conversion.
+
+Run-length encoding:
+The image implicitly starts with the background color.
+Then, strictly alternating between foreground and
+background, run-length counts are listed. The output
+is formatted in a way that permits including it as
+the contents of an array of integers.
+

@@ -1,0 +1,58 @@
+#
+# classes.lst -- the list of standard classes
+#
+
+				  #   P   I
+
+Object                            #   +   -
+    UndefinedObject               #   +   -
+    Boolean                       #   +   -
+	False                     #   +   -
+	True                      #   +   -
+    Magnitude                     #   +   -
+	Association               #   +   -
+	Character                 #   +   -
+	Number                    #   +   -
+	    Float                 #   -   +
+	    Fraction              #   +   -
+	    Integer               #   +   -
+		SmallInteger      #   +   -
+    Link                          #   +   -
+	LinkedObject              #   +   -
+	Process                   #   +   -
+    ProcessorScheduler            #   +   -
+    Stream                        #   +   -
+	Random                    #   +   -
+	PositionableStream        #   +   -
+	    ReadStream            #   +   -
+	    WriteStream           #   +   -
+		ReadWriteStream   #   +   -
+    Collection                    #   +   -
+	SequenceableCollection    #   +   -
+	    LinkedList            #   +   -
+		Semaphore         #   +   -
+	    ArrayedCollection     #   +   -
+		Array             #   +   +
+		ByteArray         #   -   +
+		String            #   -   +
+		    Symbol        #   -   +
+	    Interval              #   +   -
+	Set                       #   +   +
+	    Dictionary            #   +   +
+    CompiledMethod                #   +   -
+    Context                       #   +   +
+	BlockContext              #   +   +
+	MethodContext             #   +   +
+    Behavior                      #   +   -
+	ClassDescription          #   +   -
+	    Class                 #   +   -
+	    Metaclass             #   +   -
+    Driver                        #   +   -
+    Compiler                      #   +   -
+    Editor                        #   +   -
+    File                          #   +   -
+    Message                       #   +   -
+    Point
+    Rectangle
+    Pen
+    Graphics
