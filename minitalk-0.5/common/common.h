@@ -22,9 +22,11 @@
 /* default image name and standard image path */
 
 #define DFLT_IMG_NAME	"minitalk.img"
-#define STD_IMG_PATH	"/home/eco/minitalk/work/minitalk-0.5/build/lib"
+/* #define STD_IMG_PATH	"/home/eco/minitalk/work/minitalk-0.5/build/lib" */
+#define STD_IMG_PATH	"../lib"
 #define STD_IMG_NAME	"minitalk-std.img"
-#define STD_SRC_PATH	"/home/eco/minitalk/work/minitalk-0.5/build/lib"
+/* #define STD_SRC_PATH	"/home/eco/minitalk/work/minitalk-0.5/build/lib" */
+#define STD_SRC_PATH	"../lib"
 #define STD_SRC_NAME	"minitalk-std.src"
 
 
@@ -36,7 +38,7 @@
 #define SEMI_SIZE	(300 * K)	/* size of a single semispace */
 #define MEMORY_SIZE	(2 * SEMI_SIZE)	/* total size of object memory */
 
-#define LINE_SIZE	100		/* size of input line */
+#define LINE_SIZE	254		/* size of input line */
 #define MAX_CHUNKSIZE	10000		/* max size of a chunk of input */
 
 
