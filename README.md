@@ -1,6 +1,8 @@
+THis is a fork of Hellwig Geisse's Minitalk:
+
  Welcome to MiniTalk!
 
-This project is my personal attempt to understand Smalltalk. I started this a long time ago,
+This project is my ( i.e. Hellwig Geisse) personal attempt to understand Smalltalk. I ( i.e.Hellwig Geisse) started this a long time ago,
 but only recently found the time to port the software to UNIX and to get it working (well,
 sort of: too much is missing yet, especially all graphics and windowing classes).
 

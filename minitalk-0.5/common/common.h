@@ -38,6 +38,10 @@
 #define SEMI_SIZE	(300 * K)	/* size of a single semispace */
 #define MEMORY_SIZE	(2 * SEMI_SIZE)	/* total size of object memory */
 
+<<<<<<< HEAD
+=======
+/* #define LINE_SIZE	100		*//* size of input line */
+>>>>>>> f77949642aa9c791a044af2a7b9f01921694b8a5
 #define LINE_SIZE	254		/* size of input line */
 #define MAX_CHUNKSIZE	10000		/* max size of a chunk of input */
 
